@@ -11,6 +11,7 @@ article.download-app .bg-black {
   background: linear-gradient(to top, #000, #00000052, #000);
   width: 100%;
   height: 100vh;
+  top: -2px;
 }
 article.download-app .container {
   position: absolute;
@@ -30,4 +31,4 @@ article.download-app .container .content img {
   max-width: 140px;
 }
 
-/*# sourceMappingURL=downloadapp.css.map */
+/*# sourceMappingURL=Downloadapp.css.map */
