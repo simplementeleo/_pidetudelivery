@@ -58,6 +58,11 @@ header article h1 {
 header article input {
   max-width: 400px;
 }
+@media (max-width: 450px) {
+  header article input {
+    max-width: 300px;
+  }
+}
 header article button {
   background: #f30212 !important;
 }

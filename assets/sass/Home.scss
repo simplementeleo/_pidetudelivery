@@ -59,6 +59,9 @@ header {
 
         input {
             max-width: 400px;
+            @media (max-width: 450px){
+                max-width: 300px;
+            }
         }
 
         button {

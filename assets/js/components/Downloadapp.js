@@ -7,8 +7,8 @@ Vue.component('Downloadapp', {
             <div class="row">
                 <div class="col-sm-6"></div>
                 <div class="col-sm-6 content d-flex flex-column justify-content-center text-white">
-                    <h1>{{ title }}</h1>
-                    <p class="mt-5">{{ text }}</p>
+                    <h1 data-aos="zoom-in" data-aos-anchor-placement="top-center">{{ title }}</h1>
+                    <p class="mt-5"  data-aos="zoom-in" data-aos-duration="200" data-aos-anchor-placement="top-center">{{ text }}</p>
                     <div class="row">
                         <div v-for="button in buttons" class="col-sm-6">
                             <a :href="button.url">
