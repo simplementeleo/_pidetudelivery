@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Comfortaa:wght@300&display=swap");
+body {
+  font-family: "Comfortaa", cursive;
+}
+body h1 {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .btn-login {
+  background: #fff6;
+  border: none;
+  z-index: 1;
+}
+header .bg-black {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #000, #00000078);
+  z-index: 0;
+}
+header img {
+  position: absolute;
+}
+header img:nth-of-type(1) {
+  width: 15%;
+  transform: rotateZ(20deg);
+  opacity: 0.4;
+}
+header img:nth-of-type(2) {
+  width: 20%;
+  transform: rotateZ(20deg);
+  bottom: 20px;
+  right: 100px;
+  opacity: 0.5;
+}
+header img:nth-of-type(3) {
+  width: 7%;
+  transform: rotateZ(20deg);
+  bottom: 61px;
+  left: 75px;
+  opacity: 0.2;
+}
+header article {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+header article h1 {
+  font-size: 4.3em;
+}
+@media (max-width: 650px) {
+  header article h1 {
+    font-size: 2em;
+  }
+}
+header article input {
+  max-width: 400px;
+}
+header article button {
+  background: #f30212 !important;
+}
+
+article.download-app {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../img/2.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+article.download-app .bg-black {
+  position: absolute;
+  background: linear-gradient(to top, #000, #00000052, #000);
+  width: 100%;
+  height: 100vh;
+}
+article.download-app .container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+article.download-app .container .content {
+  height: 100vh;
+}
+article.download-app .container .content h1 {
+  border-left: 10px solid #f30212;
+  padding-left: 10px;
+}
+article.download-app .container .content img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 140px;
+}
+
+article.services {
+  position: relative;
+  background: #ffffff;
+  min-height: 100vh;
+  max-height: 100%;
+}
+article.services .curve {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+article.services .curve .top {
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+article.services .curve .bottom {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+article.services .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article.services .content .container {
+  background: red;
+}
+article.services .content .container img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=main.css.map */

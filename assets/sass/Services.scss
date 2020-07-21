@@ -1,0 +1,38 @@
+article.services {
+    position: relative;
+    background: #ffffff;
+    min-height: 100vh;
+    max-height: 100%;
+
+    .curve {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        .top {
+            top: 0;
+            position: absolute;
+            width: 100%;
+        }
+        .bottom {
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            background: red;
+            img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+
+}
